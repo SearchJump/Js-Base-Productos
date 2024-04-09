@@ -1,32 +1,19 @@
 {
-  "productos": [
+  "posts": [
     {
-      "nombre": "Producto 1",
-      "precio": 100,
-      "descripcion": "Descripción del producto 1"
-    },
-    {
-      "nombre": "Producto 2",
-      "precio": 200,
-      "descripcion": "Descripción del producto 2"
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
   ],
-  "marcas": [
+  "comments": [
     {
-      "nombre": "Marca 1",
-      "pais_origen": "España"
-    },
-    {
-      "nombre": "Marca 2",
-      "pais_origen": "Francia"
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     }
   ],
-  "categorias": [
-    {
-      "nombre": "Categoría 1"
-    },
-    {
-      "nombre": "Categoría 2"
-    }
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }
